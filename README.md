@@ -9,17 +9,19 @@ This reository is implemantation of clean code architecture
 
 ### How do I get set up? ###
 
-Her i use dep for dependancy management
+It has simple dependencies:
 
-If you're interested in hacking on `dep`, you can install via `go get`:
+ - [Chi (Router)](https://github.com/go-chi/chi)
+ - [Dep (Dependency management)](https://github.com/golang/dep)
+ - [GORM (ORM library)](http://gorm.io)
+ - [Mapper (Simple mapper)](github.com/devfeel/mapper)
+ - [Viper(Go configuration)](https://github.com/spf13/viper)
 
-```sh
-go get -u github.com/golang/dep/cmd/dep
-```
-Then run navigate to code folder 
+As i use dep for dependancy management to install all dependancies navigate to code folder and run
 ```sh
 dep ensure 
 ```
+It will install all require dependancies.
 
 To run the application
 
