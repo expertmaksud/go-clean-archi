@@ -4,7 +4,7 @@ This reository is implemantation of clean code architecture
 
 ### What is this repository for? ###
 
-* This reository is implemantation of clean code architecture using golang . Here i follow Domain driven design. For make the application loosely coupled and unit testable i ustilize interfaces and implement IOC container.  
+* This reository is implemantation of clean code architecture using golang . Here i follow Domain driven design. To make the application loosely coupled and unit testable i ustilize interfaces and implement IOC container.  
 
 As golang Compile-time Dependency Injection wire(https://github.com/google/wire) is still in alpha, so i write my own injection container. You can found the implementation in injectioncontainer.go file.
 
