@@ -8,7 +8,7 @@ connection_max = 100
     host = "localhost" 
     port = 5432 
     user = "postgres" 
-    dbname = "zachai" 
+    dbname = "devdb" 
     password = "123456" 
     sslmode = "disable"
 
@@ -20,7 +20,7 @@ connection_max = 200
     host = "staging" 
     port = 5432 
     user = "postgres" 
-    dbname = "zachai" 
+    dbname = "stagedb" 
     password = 123456 
     sslmode = "disable"
 
@@ -32,6 +32,6 @@ connection_max = 5000
     host = "prodserver" 
     port = 5432 
     user = "postgres" 
-    dbname = "zachai" 
+    dbname = "proddb" 
     password = 123456 
     sslmode = "disable"
